@@ -13,11 +13,11 @@ window.onload = () => {
 };
 
 let generatorexcuse = () => {
-  let pronun = ["A", "The"];
-  let subject = ["Jogger", "racoon", "dog", "driver", "comedian", "pincone"];
-  let action = ["took my", "threw my", "yelled at my", "stole my", "bit my"];
-  let object = ["homework", "toe", "car", "shoe"];
-  let where = ["on the street", "in my house", "in my driveway"];
+  let pronun = ["Un", "El"];
+  let subject = ["ladron", "conductor", "perro", "cómico", "soldado", "jefe"];
+  let action = ["a cogido mis", "a tirado mis", "me robo mis", "cambio mis"];
+  let object = ["deberes", "carpetas", "coches", "zapatos"];
+  let where = ["en la calle.", "en mi casa.", "en el parque."];
 
   let proInd = Math.floor(Math.random() * pronun.length);
   let subInd = Math.floor(Math.random() * subject.length);
